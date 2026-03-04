@@ -8,7 +8,7 @@ Repositório com atividades da disciplina de FrontEnd.
 
 - 20260224/
   - desafio-01/
-  - index(teste)
+  - ex01
 - 20260303/
   - exercicio-02/
 
