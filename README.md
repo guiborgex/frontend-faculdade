@@ -1,6 +1,15 @@
-# 📚 frontend-faculdade
+# 📘 frontend-faculdade
 
 Repositório com atividades da disciplina de FrontEnd.
+
+## 👤 Informações Acadêmicas
+
+- Nome: Guilherme Borges de Gouveia
+- RA: 26006989-2
+- Turma: Engenharia de Software | 3º Período Noite
+- Disciplina: PROGRAMAÇÃO FRONT END
+- Professor: LUIZ FERNANDO CORCINI
+- Instituição: Unicesumar
 
 📌 Início das atividades a partir da Aula 01.
 
@@ -14,8 +23,7 @@ Repositório com atividades da disciplina de FrontEnd.
   - desafio02/ 
   - ex01/
   - ex02/
-  - ex03/
-  - ex04/
+  - ...
 
 ## Tecnologias
 
