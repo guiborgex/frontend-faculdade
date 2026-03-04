@@ -7,10 +7,15 @@ Repositório com atividades da disciplina de FrontEnd.
 ## Estrutura
 
 - 20260224/
-  - desafio-01/
+  - desafio01/
   - ex01
 - 20260303/
-  - exercicio-02/
+  - desafio01/
+  - desafio02/ 
+  - ex01/
+  - ex02/
+  - ex03/
+  - ex04/
 
 ## Tecnologias
 
