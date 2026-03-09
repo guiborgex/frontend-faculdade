@@ -6,7 +6,7 @@ Repositório com atividades da disciplina de FrontEnd.
 
 - Nome: Guilherme Borges de Gouveia
 - RA: 26006989-2
-- Turma: Engenharia de Software | 3º Período Noite
+- Turma: Engenharia de Software | 3º Período Noite | Turma A
 - Disciplina: PROGRAMAÇÃO FRONT END
 - Professor: LUIZ FERNANDO CORCINI
 - Instituição: Unicesumar
