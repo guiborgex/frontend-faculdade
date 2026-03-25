@@ -1,0 +1,71 @@
+p{
+    color : rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+h2{
+    color : #b0b1fc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    text-shadow: 1px 1px 2px black;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+h1{
+    color: rgb(87, 99, 255);
+    border-color: black;
+    border-width: 2px;
+    border-style: dashed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 38px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.55);
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+body{
+    background-color: #81bafc;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/fundo.jpg");
+    margin: 30px;
+}
+
+.caixa1{
+    background-image: url("../img/div.jpeg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 300px;
+    border: 3px solid white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+a{
+    color: #fff8a6;
+    background-color: rgba(0, 0, 0, 0.45);
+    border: 2px solid white;
+    padding: 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+a:hover{
+    color: white;
+    background-color: rgba(87, 99, 255, 0.70);
+}
+
+p a{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 17px;
+}

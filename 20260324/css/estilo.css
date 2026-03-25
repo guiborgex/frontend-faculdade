@@ -1,0 +1,31 @@
+p{
+    color : rgb(255, 255, 255);
+}
+
+h2{
+    color : #b0b1fc
+}
+
+h1{
+    color: rgb(87, 99, 255);
+    border-color: black;
+    border-width: 2px;
+    border-style: dashed;
+}
+
+body{
+    background-color: #81bafc;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/fundo.jpg");
+}
+
+.caixa1{
+    background-image: url("../img/div.jpeg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 300px;
+}
