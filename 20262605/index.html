@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios JavaScript</title>
+
+    <style>
+        .produto {
+            background-color: bisque;
+            border: 2px solid blue;
+            border-radius: 40px;
+            width: 200px;
+            height: 220px;
+            text-align: center;
+            margin: 20px;
+            padding-top: 30px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>JS – Exercício 01, 02 e 03 HTML</h1>
+
+    <hr>
+
+    <h2>Saudação</h2>
+
+    <input type="text" id="nomeExe01" placeholder="Digite seu nome">
+    <button id="btnExe01">Mostrar Mensagem</button>
+    <p id="pExe01"></p>
+
+    <br><br>
+
+    <hr>
+
+    <h2>Exercício 2</h2>
+
+    <p id="pExe02">Existem 3 tipos de pessoas: As que sabem contar e as que não sabem!</p>
+    <button id="btnExe02">Alterar Estilo</button>
+
+    <br><br>
+
+    <hr>
+
+    <h2>Exercício 3</h2>
+
+    <button class="cor" data-cor="red">Vermelho</button>
+    <button class="cor" data-cor="green">Verde</button>
+    <button class="cor" data-cor="blue">Azul</button>
+    <button class="cor" data-cor="">Original</button>
+
+    <br><br>
+
+    <hr>
+
+    <h1>JS – Exercício 04 e 05 - HTML</h1>
+
+    <hr>
+
+    <h2>Exercício 4</h2>
+
+    <p>Criar e Remover Parágrafos</p>
+
+    <button id="btnCriar">Novo Parágrafo</button>
+    <button id="btnRemover">Remover Parágrafo</button>
+
+    <div id="conteudo"></div>
+
+    <br><br>
+
+    <hr>
+
+    <h1>JS – Exercício 06 – HTML - JS</h1>
+
+    <hr>
+
+    <h2>Exercício 6</h2>
+
+    <p><strong>Utilizando o SELECT para trocar a Imagem</strong></p>
+
+    <select id="selectExe06">
+        <option value="car">Carro</option>
+        <option value="moto">Moto</option>
+        <option value="bus">Ônibus</option>
+        <option value="bike">Bicicleta</option>
+    </select>
+
+    <br><br>
+
+    <img id="fotoExe06" src="../imgs/car.png" alt="Imagem do veículo" width="250">
+
+    <br><br>
+
+    <hr>
+
+    <h1>JS – Exercício 07 – HTML - JS</h1>
+
+    <hr>
+
+    <h2>Exercício 7</h2>
+
+    <p><strong>Muda a forma e a cor do elemento DIV ao passar o mouse sobre ele.</strong></p>
+
+    <div id="divExe07" style="width: 300px; height: 300px; background: orange; margin: 50px;"></div>
+
+    <br><br>
+
+    <hr>
+
+    <h1>JS – Exercício 08 – JS</h1>
+
+    <hr>
+
+    <h2>Exercício 8</h2>
+
+    <p><strong>Apresenta um texto ao passar o mouse sobre a imagem.</strong></p>
+
+    <p id="textoExe08"></p>
+
+    <img id="imgExe08" src="../20262605/img/ex08.png" alt="Imagem exercício 8" width="250">
+
+    <br><br>
+
+    <hr>
+
+    <h1>JS – Exercício 09 – JS</h1>
+
+    <hr>
+
+    <h2>Exercício 9</h2>
+
+    <p>Clique no botão para inserir itens numa lista não ordenada.</p>
+
+    <input type="number" id="qtdeExe09" placeholder="Quantidade de itens">
+    <button id="btnExe09">Criar Lista</button>
+
+    <ul id="listaExe09"></ul>
+
+    <br><br>
+
+    <hr>
+
+    <h1>JS – Exercício 10 – HTML</h1>
+
+    <hr>
+
+    <h2>Exercício 10</h2>
+
+    <div style="display: flex; flex-direction: row;">
+
+        <div class="produto" data-descr="Notebook" data-preco="8500">
+            <span>Notebook</span><br><br>
+            <img src="./img/not.png" width="100px">
+        </div>
+
+        <div class="produto" data-descr="Celular" data-preco="3000">
+            <span>Celular</span><br><br>
+            <img src="./img/not.png" width="100px">
+        </div>
+
+        <div class="produto" data-descr="Tablet" data-preco="1200">
+            <span>Tablet</span><br><br>
+            <img src="./img/not.png" width="100px">
+        </div>
+
+    </div>
+
+    <p>Itens da Lista:</p>
+
+    <ol id="listaProdExe10"></ol>
+
+    <p>Valor da Compra</p>
+
+    <p id="valorCompraExe10"></p>
+
+    <hr>
+
+<hr>
+
+<h1>JS – Exercício 11 – DESAFIO</h1>
+
+<hr>
+
+<h2>Exercício 11</h2>
+
+<p>
+    Selecione um produto. Ao selecionar, informe a quantidade.
+    Se clicar novamente no mesmo produto, ele será removido da lista.
+</p>
+
+<div style="display: flex; flex-direction: row;">
+
+    <div class="produtoExe11" data-descr="Notebook" data-preco="8500"
+         style="background-color: bisque; border: 2px solid blue; border-radius: 40px; width: 200px; height: 220px; text-align: center; margin: 20px; padding-top: 30px; cursor: pointer;">
+        <span>Notebook</span><br><br>
+        <img src="./img/not.png" width="100px">
+    </div>
+
+    <div class="produtoExe11" data-descr="Celular" data-preco="3000"
+         style="background-color: bisque; border: 2px solid blue; border-radius: 40px; width: 200px; height: 220px; text-align: center; margin: 20px; padding-top: 30px; cursor: pointer;">
+        <span>Celular</span><br><br>
+        <img src="./img/not.png" width="100px">
+    </div>
+
+    <div class="produtoExe11" data-descr="Tablet" data-preco="1200"
+         style="background-color: bisque; border: 2px solid blue; border-radius: 40px; width: 200px; height: 220px; text-align: center; margin: 20px; padding-top: 30px; cursor: pointer;">
+        <span>Tablet</span><br><br>
+        <img src="./img/not.png" width="100px">
+    </div>
+
+</div>
+
+<p>Itens da Lista:</p>
+
+<ol id="listaProdExe11"></ol>
+
+<p>Valor da Compra</p>
+
+<p id="valorCompraExe11">R$ 0</p>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
